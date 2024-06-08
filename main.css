@@ -1,0 +1,351 @@
+
+.class {
+text-align:left;
+margin: 0;
+padding: 0;
+
+
+}
+
+.my_navbar{
+  text-align: right;
+
+}
+
+
+
+h1 {
+  
+        font-family: "Honk", system-ui;
+        
+        font-weight: 900;
+        font-style: normal;
+        font-variation-settings:
+          "MORF" 15,
+          "SHLN" 50;
+          font-size:35px;
+          text-align:center;
+      }
+      
+
+.image{
+    text-align: right;
+}
+
+.this{
+    text-align:right;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.wrapper{
+    width:100%;
+}
+
+
+
+#video {
+  width: 100%;
+  height: 500px;
+  border: none;
+}
+
+.my_nav_bar {
+
+  top: 0px;
+  z-index: 99999;
+}
+
+#map iframe {
+  width: 100%;
+}
+
+.achievment_head {
+  font-size: 20px;
+  padding: 6px 22px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  display: inline-block;
+}
+
+.achievment_head i {
+  float: right;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+*{
+  text-decoration: none;
+}
+.navbar{
+  background-image: linear-gradient(rgb(250, 202, 8),rgb(0, 255, 255),rgb(9, 252, 21));
+}
+.navdiv{
+  display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+  font-size: 35px; font-weight: 600; color: white;
+}
+li{
+  list-style: none; display: inline-block;
+}
+li a{
+  color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+
+button a{
+  color: white; font-weight: bold; font-size: 15px;
+}
+
+.quote{
+  background-color:orange ;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#video {
+  width: 100%;
+  height: 500px;
+  border: none;
+}
+
+#marqueestyle {
+  background-color: blue;
+  color: white;
+}
+
+.my_nav_bar {
+  position: sticky;
+  top: 0px;
+  z-index: 99999;
+}
+
+#map iframe {
+  width: 100%;
+}
+
+.achievment_head {
+  font-size: 20px;
+  padding: 6px 22px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  display: inline-block;
+}
+
+.achievment_head i {
+  float: right;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.campus_life_mainDiv {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  border: 1px solid #c7c7c7;
+}
+
+.campus_life_mainDiv img {
+  width: 100%;
+  height: 300px;
+}
+
+.campus_life_mainDiv hr {
+  width: 100%;
+}
+
+.campus_life_mainDiv h5,
+.campus_life_mainDiv p {
+  margin-left: 20px;
+}
+
+#Details h3 {
+  display: inline;
+}
+
+.whats_new_li {
+  margin-top: 13px;
+}
+
+.whats_new_li h4 {
+  border-bottom: 1px solid white;
+  padding: 8px;
+}
+
+.whats_new_li p {
+  margin-top: 10px;
+}
+
+.whats_new_li img {
+  border-radius: 25px;
+}
+
+.header_entrepreneur {
+  line-height: 2;
+}
+
+.alumni {
+  cursor: pointer;
+}
+
+.alumni hr {
+  margin-bottom: 10px;
+}
+
+.modal-content {
+  margin-top: 100px;
+}
+
+.img_modal {
+  display: inline-block;
+}
+
+.p_modal {
+  margin-top: 10px;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.navbar1{
+  background:orange; font-family: calibri; padding-right: 15px;padding-left: 15px;
+}
+.navdiv1{
+  display: block; justify-content: end;
+}
+
+.navbar2{
+  background:orange; font-family: calibri; padding-right: 15px;padding-left: 15px;
+}
+
+
+.p{
+  font-size: 100px;
+  font-weight: bold;
+  color: black;
+}
+
+.conatiner{
+  display:flex;
+  height:15cm;
+  justify-content: center;
+  align-items: center;
+  gap:3cm;
+  flex-grow:1;
+  padding: 0 40px;
+  background-color: greenyellow;
+
+}
+
+
+.div1, .div2, .div3{
+  width:21em;
+  height:25em;
+  background-color: white;
+  box-shadow:5px 5px 25px #0000005f; 
+  padding:10px 30px;
+  border-radius:10px;
+}
+
+.div1{
+  background-image: url("https://www.cnet.com/a/img/resize/bbcdbdb37048b08b6a0b14975c9ea5fc4041b7f5/hub/2022/10/10/f2ff9ef7-f016-459d-b88a-a8a68270c315/solar-gettyimages-525206743.jpg?auto=webp&fit=crop&height=1200&width=1200");
+ background-image:center;
+ background-repeat: no-repeat;
+ background-size: 9cm;
+ backface-visibility: hidden;
+}
+
+#h2{
+  font-size: 5px;
+  color: blue;
+}
+
+@media(max-width:1200px){
+  .conatiner{
+    height:100%;
+    flex-direction: column;
+  }
+  .div1, .div2, .div3{
+    max-width: 80%;
+    padding: 30px;
+
+  
+}
+}
+
+
+@media(max-width:1200px){
+  .video{
+    max-width: 40%;
+    max-height: 100px;
+
+  }
+}
+
+@media(max-width:1200px){
+  .cont1, .cont2, .cont3, .cont4{
+    height: 25px;
+    width: 25px;
+   
+
+  }
+}
+
+button{
+  cursor: pointer;
+  border: 0;
+  top:40vh;
+  text-align: center;
+  height:55px;
+  width:115px;
+  font-size:15px;
+  border-radius: 2vh;
+  box-shadow: 0 0 5px cyan,0 0 5px cyan;
+  background-color: cyan;
+  
+
+}
+
+button:hover{
+  box-shadow: 0 0 5px cyan,0 0 25px cyan , 0 0 50px cyan,0 0 100px cyan;
+}
+
+.div2{
+  background-image: url("https://www.whcsolar.com/wp-content/uploads/2022/11/commercial.webp");
+ background-image:center;
+ background-repeat: no-repeat;
+ background-size: 20cm;
+ backface-visibility: hidden;
+}
+
+.div3{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV4rkV9Sj7bWUZhN-SCY9i9isCqDYGXTTAaw&s");
+ background-image:center;
+ background-repeat: no-repeat;
+ background-size: 15cm;
+ backface-visibility: hidden;
+}
+
+.p{
+  font-size: 15px;
+}
+
+
+
+
